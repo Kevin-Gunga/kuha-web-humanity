@@ -10,3 +10,32 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron:wght@800&display=swap" rel="stylesheet">  */
+
+.swiper {
+    height: 38rem;
+}
+.swiper-button-prev:after {
+    color: #d1d5db;
+    background-color: rgb(40, 36, 36);
+    height: 50px;
+    /* width: 40px; */
+    font-size: 15px;
+    font-family:'revicons';
+    display: block;
+    /* line-height:50px; */
+    text-align: center;
+    padding: 2px;
+}
+
+.swiper-button-next:after {
+    color: #d1d5db;
+    background-color: rgb(40, 36, 36);
+    height: 50px;
+    /* width: 40px; */
+    font-size: 15px;
+    font-family:'revicons';
+    display: block;
+    /* line-height:50px; */
+    text-align: center;
+    padding: 2px;
+}
