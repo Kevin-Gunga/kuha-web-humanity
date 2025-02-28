@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link
-import "../App.css";
+import "../style.css";
 import logo from "../images/kuha-logo.jpeg";
 import constitution from "../files/kuha constitution.pdf";
 

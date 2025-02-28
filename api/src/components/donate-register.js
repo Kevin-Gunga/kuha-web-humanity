@@ -1,4 +1,4 @@
-import "../App.css";
+import "../style.css";
 import Navbar from "./navbar";
 import Contact from "./contact";
 import Media from "./media";

@@ -1,4 +1,4 @@
-import "../App.css";
+import "../style.css";
 import patron from "../images/patron.jpg";
 import chairperson from "../images/chairperson.jpeg";
 import secretarygeneral from "../images/secretary general.jpeg";

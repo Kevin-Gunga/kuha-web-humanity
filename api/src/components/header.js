@@ -1,4 +1,4 @@
-import "../App.css";
+import "../style.css";
 
 import img4 from "../images/img4.jpeg";
 import img5 from "../images/img5.jpeg";
