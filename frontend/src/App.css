@@ -12,30 +12,122 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron:wght@800&display=swap" rel="stylesheet">  */
 
 .swiper {
-    height: 38rem;
-}
-.swiper-button-prev:after {
-    color: #d1d5db;
-    background-color: rgb(40, 36, 36);
-    height: 50px;
-    /* width: 40px; */
-    font-size: 15px;
-    font-family:'revicons';
-    display: block;
-    /* line-height:50px; */
-    text-align: center;
-    padding: 2px;
+  height: 39rem;
 }
 
-.swiper-button-next:after {
-    color: #d1d5db;
-    background-color: rgb(40, 36, 36);
-    height: 50px;
-    /* width: 40px; */
-    font-size: 15px;
-    font-family:'revicons';
-    display: block;
-    /* line-height:50px; */
-    text-align: center;
-    padding: 2px;
+/* Style for the next button icon */
+.swiper-button-next::after {
+  @apply text-white text-lg font-bold flex items-center justify-center;
+  content: "→"; /* Replace with desired arrow or Unicode character */
+}
+
+/* Style for the prev button icon */
+.swiper-button-prev::after {
+  @apply text-white text-lg font-bold flex items-center justify-center;
+  content: "←"; /* Replace with desired arrow or Unicode character */
+}
+
+/* Optional: Hover effect for icons */
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  @apply text-swiperButtonHover;
+}
+
+@media (max-width: 1024px) {
+    .swiper {
+        height: 448px;
+      }
+    
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 120px;
+    padding: 12px;
+  }
+
+.title-motto {
+  padding: 0;
+}
+
+  .title {
+    font-size: 12px;
+  }
+
+  .motto {
+    font-size: 12px;
+  }
+
+
+  .navbar {
+    width: 450px;
+    padding: 0px;
+    /* margin: 10px auto; */
+  }
+
+  
+
+  .navbar-div {
+    width:450px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-list {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+
+  .swiper {
+    height: 346px;
+  }
+
+  .team {
+    margin: 20px 20px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .swiper {
+    height: 244px;
+  }
+  .logo {
+    height: 5rem;
+  }
+
+  .px-5 {
+    padding: 0;
+  }
+  .title-motto {
+    padding: 0;
+    width: 100%;
+  }
+  .title {
+    font-size: 0.7rem;
+  }
+  .motto {
+    font-size: 0.6rem;
+  }
+
+  .image {
+    height: 15rem;
+  }
+
+  .about {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  .exec-image {
+    height: 125px;
+    width: 130px;
+  }
+
+  .membership {
+    width: 86%;
+    margin: 0 auto;
+  }
 }
